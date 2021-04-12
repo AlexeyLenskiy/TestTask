@@ -4,7 +4,7 @@ import java.sql.*;
 public class TestRequest {
     public static final String URL = "jdbc:postgresql://localhost:5433/task";
     private static final String USERNAME = "postgres";
-    private static final String PASSWORD = "4e-Guev@r";
+    private static final String PASSWORD = "secret_password";
     static String select = "SELECT department, SUM(salary) as salary FROM employees GROUP BY department";
 
     public static void selectData() {
